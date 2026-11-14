@@ -11,6 +11,7 @@ import {
   Settings,
   Flag,
   HelpCircle,
+  Megaphone,
 } from 'lucide-react'
 import { cn } from '@/utils/cn'
 import { useAuth } from '@/hooks/useAuth'
@@ -27,6 +28,7 @@ const citizenLinks = [
 const adminLinks = [
   { to: '/admin/dashboard', label: 'Dashboard', icon: Shield },
   { to: '/admin/reports', label: 'Manage Reports', icon: Flag },
+  { to: '/admin/broadcasts', label: 'Emergency Broadcasts', icon: Megaphone },
   { to: '/admin/notifications', label: 'Notifications', icon: Bell },
   { to: '/admin/settings', label: 'Settings', icon: Settings },
 ]
